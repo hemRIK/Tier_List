@@ -1,0 +1,450 @@
+ [
+  {
+    "nome": "Shino Pts",
+    "imagem": "img/players/Shino Pts.png",
+    "link": "javascript:void(0)",
+    "imagem_selecao": "img/players/Fotoselecao/ShinoPts.png"
+  },
+  {
+    "nome": "Shino Ts",
+    "imagem": "img/players/Shino Ts.png",
+    "link": "javascript:void(0)",
+    "imagem_selecao": "img/players/Fotoselecao/ShinoTs.png"
+  },
+  {
+    "nome": "Shizune",
+    "imagem": "img/players/Shizune.png",
+    "link": "javascript:void(0)",
+    "imagem_selecao": "img/players/Fotoselecao/Shizune.png"
+    
+  },
+  {
+    "nome": "Tayuya Lv2",
+    "imagem": "img/players/Tayuya Lv2.PNG",
+    "link": "javascript:void(0)",
+    "imagem_selecao": "img/players/Fotoselecao/Shizune.png"
+    
+  },
+  {
+    "nome": "Tayuya",
+    "imagem": "img/players/Tayuya.png",
+    "link": "javascript:void(0)",
+     "imagem_selecao": "img/players/Fotoselecao/Tayuya.png"
+  },
+  {
+    "nome": "Temari Pts",
+    "imagem": "img/players/Temari Pts.png",
+    "link": "javascript:void(0)",
+     "imagem_selecao": "img/players/Fotoselecao/TemariPts.png"
+  },
+  {
+    "nome": "Temari Ts",
+    "imagem": "img/players/Temari Ts.png",
+    "link": "javascript:void(0)",
+    "imagem_selecao": "img/players/Fotoselecao/TemarTs.png"
+  },
+  {
+    "nome": "Tenten Pts",
+    "imagem": "img/players/Tenten Pts.png",
+    "link": "javascript:void(0)",
+    "imagem_selecao": "img/players/Fotoselecao/TentenPts.png"
+
+  },
+  {
+    "nome": "Tenten Ts",
+    "imagem": "img/players/Tenten Ts.png",
+    "link": "javascript:void(0)",
+    "imagem_selecao": "img/players/Fotoselecao/TentenTs.png"
+  },
+  {
+    "nome": "Time Kohonomaru",
+    "imagem": "img/players/Time Kohonomaru.png",
+    "link": "javascript:void(0)",
+    "imagem_selecao": "img/players/Fotoselecao/TimeKohonomaru.png"
+  },
+  {
+    "nome": "Tsunade",
+    "imagem": "img/players/Tsunade.png",
+    "link": "javascript:void(0)",
+    "imagem_selecao": "img/players/Fotoselecao/Tsunade.png"
+  },
+  {
+    "nome": "Yamato",
+    "imagem": "img/players/Yamato.png",
+    "link": "javascript:void(0)",
+    "imagem_selecao": "img/players/Fotoselecao/yamato.png"
+  },
+  {
+    "nome": "Zabuza",
+    "imagem": "img/players/Zabuza.png",
+    "link": "javascript:void(0)",
+    "imagem_selecao": "img/players/Fotoselecao/Zabuza.png"
+  },
+  {
+    "nome": "1 Hokage",
+    "imagem": "img/players/1 Hokage.png",
+    "link": "javascript:void(0)",
+    "imagem_selecao": "img/players/Fotoselecao/1Hokage.png"
+
+  },
+  {
+    "nome": "2 hokage",
+    "imagem": "img/players/2 hokage.png",
+    "link": "javascript:void(0)",
+     "imagem_selecao": "img/players/Fotoselecao/2Hokage.png"
+  },
+  {
+    "nome": "3 hokage",
+    "imagem": "img/players/3 hokage.png",
+    "link": "javascript:void(0)",
+     "imagem_selecao": "img/players/Fotoselecao/3Hokage.png"
+  },
+  {
+    "nome": "4 hokage",
+    "imagem": "img/players/4 hokage.png",
+    "link": "javascript:void(0)",
+    "imagem_selecao": "img/players/Fotoselecao/4Hokage.png"
+    },
+  {
+    "nome": "Anko",
+    "imagem": "img/players/Anko.png",
+    "link": "javascript:void(0)",
+    "imagem_selecao": "img/players/Fotoselecao/anko.png"
+  },
+  {
+    "nome": "Assuma",
+    "imagem": "img/players/Assuma.png",
+    "link": "javascript:void(0)",
+    "imagem_selecao": "img/players/Fotoselecao/asuma.png"
+  },
+  {
+    "nome": "Chouji Lv2",
+    "imagem": "img/players/Chouji Lv2.PNG",
+    "link": "javascript:void(0)",
+    "imagem_selecao": "img/players/Fotoselecao/asuma.png"
+  },
+  {
+    "nome": "Chouji Pts",
+    "imagem": "img/players/Chouji Pts.png",
+    "link": "javascript:void(0)",
+    "imagem_selecao": "img/players/Fotoselecao/ChoujiPts.png"
+  },
+  {
+    "nome": "Chouji Ts",
+    "imagem": "img/players/Chouji Ts.png",
+    "link": "javascript:void(0)",
+    "imagem_selecao": "img/players/Fotoselecao/choji.png"
+  },
+  {
+    "nome": "Deidara",
+    "imagem": "img/players/Deidara.png",
+    "link": "javascript:void(0)",
+    "imagem_selecao": "img/players/Fotoselecao/Deidara.png"
+  },
+  {
+    "nome": "Shukaku",
+    "imagem": "img/players/Gaara pts Lv2.PNG",
+    "link": "javascript:void(0)",
+    "imagem_selecao": "img/players/Fotoselecao/Gaarapts.png"
+  },
+  {
+    "nome": "Gaara pts",
+    "imagem": "img/players/Gaara pts.png",
+    "link": "javascript:void(0)",
+    "imagem_selecao": "img/players/Fotoselecao/Gaarapts.png"
+  },
+  {
+    "nome": "Gaara Ts",
+    "imagem": "img/players/Gaara Ts.png",
+    "link": "javascript:void(0)",
+    "imagem_selecao": "img/players/Fotoselecao/GaaraTs.png"
+  },
+  {
+    "nome": "Jiroubou Lv2",
+    "imagem": "img/players/JiroubouLv2.PNG",
+    "link": "javascript:void(0)",
+    "imagem_selecao": "img/players/Fotoselecao/Jiroubou.png"
+  },
+  {
+    "nome": "Jiroubou",
+    "imagem": "img/players/Jiroubou.png",
+    "link": "javascript:void(0)",
+    "imagem_selecao": "img/players/Fotoselecao/Jiroubou.png"
+  },
+  {
+    "nome": "Guy",
+    "imagem": "img/players/Guy.png",
+    "link": "javascript:void(0)",
+    "imagem_selecao": "img/players/Fotoselecao/Guy.png"
+  },
+  {
+    "nome": "Haku",
+    "imagem": "img/players/Haku.png",
+    "link": "javascript:void(0)",
+    "imagem_selecao": "img/players/Fotoselecao/Haku.png"
+  },
+  {
+    "nome": "Hanabi",
+    "imagem": "img/players/Hanabi.png",
+    "link": "javascript:void(0)",
+    "imagem_selecao": "img/players/Fotoselecao/Hanabi.png"
+  },
+  {
+    "nome": "Hinata Pts",
+    "imagem": "img/players/Hinata Pts.png",
+    "link": "javascript:void(0)",
+    "imagem_selecao": "img/players/Fotoselecao/HinataPts.png"
+  },
+  {
+    "nome": "Hinata Ts",
+    "imagem": "img/players/Hinata Ts.png",
+    "link": "javascript:void(0)",
+    "imagem_selecao": "img/players/Fotoselecao/HinataTs.png"
+  },
+  {
+    "nome": "Ino Pts",
+    "imagem": "img/players/Ino Pts.png",
+    "link": "javascript:void(0)",
+    "imagem_selecao": "img/players/Fotoselecao/Gaarapts.png"
+  },
+  {
+    "nome": "Ino Ts",
+    "imagem": "img/players/Ino Ts.png",
+    "link": "javascript:void(0)",
+    "imagem_selecao": "img/players/Fotoselecao/InoTs.png"
+  },
+  {
+    "nome": "Itachi",
+    "imagem": "img/players/Itachi.png",
+    "link": "javascript:void(0)",
+    "imagem_selecao": "img/players/Fotoselecao/Itachi.png"
+  },
+  {
+    "nome": "Jiraya",
+    "imagem": "img/players/Jiraya.png",
+    "link": "javascript:void(0)",
+    "imagem_selecao": "img/players/Fotoselecao/Jiraya.png"
+  },
+  {
+    "nome": "Kabuto",
+    "imagem": "img/players/Kabuto.png",
+    "link": "javascript:void(0)",
+    "imagem_selecao": "img/players/Fotoselecao/Kabuto.png"
+  },
+  {
+    "nome": "Kakashi",
+    "imagem": "img/players/Kakashi.png",
+    "link": "javascript:void(0)",
+    "imagem_selecao": "img/players/Fotoselecao/Kakashi.png"
+  },
+  {
+    "nome": "Kankuro Pts",
+    "imagem": "img/players/Kankuro Pts.png",
+    "link": "javascript:void(0)",
+    "imagem_selecao": "img/players/Fotoselecao/KankuroPts.png"
+  },
+  {
+    "nome": "Kankuro Ts",
+    "imagem": "img/players/Kankuro Ts.png",
+    "link": "javascript:void(0)",
+    "imagem_selecao": "img/players/Fotoselecao/KankuroTs.png"
+  },
+  {
+    "nome": "Kiba Pts",
+    "imagem": "img/players/Kiba Pts.png",
+    "link": "javascript:void(0)",
+    "imagem_selecao": "img/players/Fotoselecao/KibaPts.png"
+  },
+  {
+    "nome": "Kiba Ts",
+    "imagem": "img/players/Kiba Ts.png",
+    "link": "javascript:void(0)",
+    "imagem_selecao": "img/players/Fotoselecao/Kibats.png"
+  },
+  {
+    "nome": "Kidomaru Lv2",
+    "imagem": "img/players/Kidomaru Lv2.PNG",
+    "link": "javascript:void(0)",
+    "imagem_selecao": "img/players/Fotoselecao/Kidomaru.png"
+  },
+  {
+    "nome": "Kidomaru",
+    "imagem": "img/players/Kidomaru.png",
+    "link": "javascript:void(0)",
+    "imagem_selecao": "img/players/Fotoselecao/Kidomaru.png"
+  },
+  {
+    "nome": "Kimimaru Lv2",
+    "imagem": "img/players/Kimimaru Lv2.png",
+    "link": "javascript:void(0)",
+    "imagem_selecao": "img/players/Fotoselecao/Kimimaru.png"
+  },
+  {
+    "nome": "Kimimaru",
+    "imagem": "img/players/Kimimaru.png",
+    "link": "javascript:void(0)",
+    "imagem_selecao": "img/players/Fotoselecao/Kimimaru.png"
+  },
+  {
+    "nome": "Kisame",
+    "imagem": "img/players/Kisame.png",
+    "link": "javascript:void(0)",
+    "imagem_selecao": "img/players/Fotoselecao/Kisame.png"
+  },
+  {
+    "nome": "Kurenai",
+    "imagem": "img/players/Kurenai.png",
+    "link": "javascript:void(0)",
+    "imagem_selecao": "img/players/Fotoselecao/Kurenai.png"
+  },
+  {
+    "nome": "Lee Lv2",
+    "imagem": "img/players/Lee Lv2.PNG",
+    "link": "javascript:void(0)",
+    "imagem_selecao": "img/players/Fotoselecao/LeePts.png"
+  },
+  {
+    "nome": "Lee Pts",
+    "imagem": "img/players/Lee Pts.png",
+    "link": "javascript:void(0)",
+    "imagem_selecao": "img/players/Fotoselecao/LeePts.png"
+  },
+  {
+    "nome": "Lee Ts",
+    "imagem": "img/players/Lee Ts.png",
+    "link": "javascript:void(0)",
+    "imagem_selecao": "img/players/Fotoselecao/LeeTs.png"
+  },
+  {
+    "nome": "Naruto Pts Lv2",
+    "imagem": "img/players/Naruto Pts Lv2.PNG",
+    "link": "javascript:void(0)",
+    "imagem_selecao": "img/players/Fotoselecao/narutopts.png"
+  },
+  {
+    "nome": "Naruto Pts",
+    "imagem": "img/players/Naruto Pts.png",
+    "link": "javascript:void(0)",
+    "imagem_selecao": "img/players/Fotoselecao/narutopts.png"
+  },
+  {
+    "nome": "Naruto Ts Lv2",
+    "imagem": "img/players/Naruto Ts Lv2.png",
+    "link": "javascript:void(0)",
+    "imagem_selecao": "img/players/Fotoselecao/Narutots.png"
+  },
+  {
+    "nome": "Naruto ts",
+    "imagem": "img/players/Naruto ts.png",
+     "link": "javascript:void(0)",
+    "imagem_selecao": "img/players/Fotoselecao/Narutots.png"
+  },
+  {
+    "nome": "Neji pts",
+    "imagem": "img/players/Neji pts.png",
+    "link": "javascript:void(0)",
+    "imagem_selecao": "img/players/Fotoselecao/Nejipts.png"
+  },
+  {
+    "nome": "Neji Ts",
+    "imagem": "img/players/Neji Ts.png",
+    "link": "javascript:void(0)",
+    "imagem_selecao": "img/players/Fotoselecao/NejiTs.png"
+  },
+  {
+    "nome": "Orochimaru",
+    "imagem": "img/players/Orochimaru.png",
+    "link": "javascript:void(0)",
+    "imagem_selecao": "img/players/Fotoselecao/Orochimaru.png"
+  },
+  {
+    "nome": "Reia(marionete)",
+    "imagem": "img/players/Reia(marionete).png",
+    "link": "javascript:void(0)",
+    "imagem_selecao": "img/players/Fotoselecao/Reia(marionete).png"
+  },
+  {
+    "nome": "Reia",
+    "imagem": "img/players/Reia.png",
+    "link": "javascript:void(0)",
+    "imagem_selecao": "img/players/Fotoselecao/Reia.png"
+  },
+  {
+    "nome": "Sai",
+    "imagem": "img/players/Sai.png",
+    "link": "javascript:void(0)",
+    "imagem_selecao": "img/players/Fotoselecao/Sai.png"
+  },
+  {
+    "nome": "Sakon Lv2",
+    "imagem": "img/players/Sakon Lv2.PNG",
+    "link": "javascript:void(0)",
+    "imagem_selecao": "img/players/Fotoselecao/sakon.png"
+  },
+  {
+    "nome": "sakon",
+    "imagem": "img/players/sakon.png",
+    "link": "javascript:void(0)",
+    "imagem_selecao": "img/players/Fotoselecao/sakon.png"
+  },
+  {
+    "nome": "Sakura Pts",
+    "imagem": "img/players/Sakura Pts.png",
+    "link": "javascript:void(0)",
+    "imagem_selecao": "img/players/Fotoselecao/SakuraPts.png"
+  },
+  {
+    "nome": "Sakura Ts",
+    "imagem": "img/players/Sakura Ts.png",
+    "link": "javascript:void(0)",
+    "imagem_selecao": "img/players/Fotoselecao/SakuraTs.png"
+  },
+  {
+    "nome": "Sasori Lv2",
+    "imagem": "img/players/Sasori Lv2.png",
+    "link": "javascript:void(0)",
+    "imagem_selecao": "img/players/Fotoselecao/Sasori.png"
+  },
+  {
+    "nome": "Hiruko",
+    "imagem": "img/players/Sasori(Hiruku).png",
+    "link": "javascript:void(0)",
+    "imagem_selecao": "img/players/Fotoselecao/Hiruko.png"
+  },
+  {
+    "nome": "Sasori",
+    "imagem": "img/players/Sasori.png",
+    "link": "javascript:void(0)",
+    "imagem_selecao": "img/players/Fotoselecao/Sasori.png"
+  },
+  {
+    "nome": "Sasuke Pts Lv2",
+    "imagem": "img/players/Sasuke Pts Lv2.PNG",
+    "link": "javascript:void(0)",
+    "imagem_selecao": "img/players/Fotoselecao/SasukePts.png"
+  },
+  {
+    "nome": "Sasuke Pts",
+    "imagem": "img/players/Sasuke Pts.png",
+    "link": "javascript:void(0)",
+    "imagem_selecao": "img/players/Fotoselecao/SasukePts.png"
+  },
+  {
+    "nome": "sasuke Ts",
+    "imagem": "img/players/sasuke Ts.png",
+    "link": "javascript:void(0)",
+    "imagem_selecao": "img/players/Fotoselecao/sasukeTs.png"
+  },
+  {
+    "nome": "shikamaru Pts",
+    "imagem": "img/players/shikamaru Pts.png",
+    "link": "javascript:void(0)",
+    "imagem_selecao": "img/players/Fotoselecao/shikamaruPts.png"
+  },
+  {
+    "nome": "Shikamaru Ts",
+    "imagem": "img/players/Shikamaru Ts.png",
+    "link": "javascript:void(0)",
+    "imagem_selecao": "img/players/Fotoselecao/ShikamaruTs.png"
+  }
+]

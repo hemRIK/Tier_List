@@ -1,0 +1,80 @@
+[
+    {
+        "nome": "Shino Pts",
+        "imagem": "img/players/Shino Pts.png",
+        "link": "javascript:void(0)",
+        "imagem_selecao": "img/players/Fotoselecao/Shino Pts.png"
+    },
+    {
+        "nome": "Shino Ts",
+        "imagem": "img/players/Shino Ts.png",
+        "link": "javascript:void(0)",
+        "imagem_selecao": "img/players/Fotoselecao/Shino Ts.png"
+    },
+    {
+        "nome": "Shizune",
+        "imagem": "img/players/Shizune.png",
+        "link": "javascript:void(0)",
+        "imagem_selecao": "img/players/Fotoselecao/Shizune.png"
+    },
+    {
+        "nome": "Tayuya Lv2",
+        "imagem": "img/players/Tayuya Lv2.PNG",
+        "link": "javascript:void(0)",
+        "imagem_selecao": ""
+    },
+    {
+        "nome": "Tayuya",
+        "imagem": "img/players/Tayuya.png",
+        "link": "javascript:void(0)",
+        "imagem_selecao": "img/players/Fotoselecao/Tayuya.png"
+    },
+    {
+        "nome": "Temari Pts",
+        "imagem": "img/players/Temari Pts.png",
+        "link": "javascript:void(0)",
+        "imagem_selecao": "img/players/Fotoselecao/Temari Pts.png"
+    },
+    {
+        "nome": "Temari Ts",
+        "imagem": "img/players/Temari Ts.png",
+        "link": "javascript:void(0)",
+        "imagem_selecao": "img/players/Fotoselecao/Temari Ts.png"
+    },
+    {
+        "nome": "Tenten Pts",
+        "imagem": "img/players/Tenten Pts.png",
+        "link": "javascript:void(0)",
+        "imagem_selecao": "img/players/Fotoselecao/Tenten Pts.png"
+    },
+    {
+        "nome": "Tenten Ts",
+        "imagem": "img/players/Tenten Ts.png",
+        "link": "javascript:void(0)",
+        "imagem_selecao": "img/players/Fotoselecao/Tenten Ts.png"
+    },
+    {
+        "nome": "Time Kohonomaru",
+        "imagem": "img/players/Time Kohonomaru.png",
+        "link": "javascript:void(0)",
+        "imagem_selecao": "img/players/Fotoselecao/Time Kohonomaru.png"
+    },
+    {
+        "nome": "Tsunade",
+        "imagem": "img/players/Tsunade.png",
+        "link": "javascript:void(0)",
+        "imagem_selecao": "img/players/Fotoselecao/Tsunade.png"
+    },
+    {
+        "nome": "Yamato",
+        "imagem": "img/players/Yamato.png",
+        "link": "javascript:void(0)",
+        "imagem_selecao": "img/players/Fotoselecao/yamato.png"
+    },
+    {
+        "nome": "Zabuza",
+        "imagem": "img/players/Zabuza.png",
+        "link": "javascript:void(0)",
+        "imagem_selecao": "img/players/Fotoselecao/Zabuza.png"
+    }
+]
