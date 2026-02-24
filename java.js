@@ -1,99 +1,111 @@
 
 let i = 0
- 
- let lista
-  let playerl
-let carregou = false 
+
+let lista
+let playerl
+let carregou = false
 let indiceatual
-let selecao 
+let selecao
 let selecao2
- let grade1
- let movegrade1 = 0
+let grade1
+let movegrade1 = 0
 
- let totaldeplayers = 0
-    let indicefoto = 0
-    let imgtamanho =86
-let imgtamanhoxtotaldeplayers  
-let tamanhograde =0
- let ultimoitemgrade
+let totaldeplayers = 0
+let indicefoto = 0
+let imgtamanho = 86
+let imgtamanhoxtotaldeplayers
+let tamanhograde = 0
+let ultimoitemgrade
 let nomep1 = document.querySelector('.nomep2')
-let nomeplayer1 =[]
- let imgselecao = []
- function carregarplayerl(callback)
+let nomeplayer1 = []
+let imgselecao = []
+let jogadores = []
+let mychart = null;  
+function carregarplayerl(callback) {
 
-{
+    fetch('Tier.json')
+        .then(response => response.json())
+        .then(playerl => {
 
- fetch('Tier.json')
-.then(response => response.json())
-.then (playerl => { 
-
-playerl.map((player, index, array) => {
-
-
-  grade1 = document.querySelector('#grade1');
- let grade2 = document.querySelector('#grade2');
+            playerl.map((player, index, array) => {
 
 
+                grade1 = document.querySelector('#grade1');
+                let grade2 = document.querySelector('#grade2');
+
+                const radarp1 = document.querySelector('.radarp1')
 
 
-const img = document.createElement("img")
-const img2 = document.createElement("img")
+                const img = document.createElement("img")
+                const img2 = document.createElement("img")
 
-imgselecao.push( player.imagem_selecao)
-img.src = player.imagem
-img.alt = player.nome
-nomeplayer1.push(player.nome)
-
-
-
-grade1.appendChild(img)
-img.classList.add('selecionado')
+                imgselecao.push(player.imagem_selecao)
+                img.src = player.imagem
+                img.alt = player.nome
+                nomeplayer1.push(player.nome)
 
 
-//console.log(imgselecao)
-img2.src = player.imagem
-img2.alt = player.nome
-grade2.appendChild(img2)
-img2.classList.add('selecionado2')
+
+                grade1.appendChild(img)
+                img.classList.add('selecionado')
 
 
-if(index == array.length -1)
-  { 
-    indiceatual= array.length 
-    callback({player, indiceatual,ultimoitemgrade})
-  totaldeplayers = array.length
-
-  
-
- 
-        }
+                //console.log(imgselecao)
+                img2.src = player.imagem
+                img2.alt = player.nome
+                grade2.appendChild(img2)
+                img2.classList.add('selecionado2')
 
 
+
+
+                if (index == array.length - 1) {
+
+                    indiceatual = array.length
+                    callback({ playerl, indiceatual, ultimoitemgrade })
+                    totaldeplayers = array.length
+
+
+
+
+                }
+
+
+
+
+            })
+        })
+}
+
+
+let dados = carregarplayerl((callback) => {
+
+    selecao = document.querySelectorAll('.selecionado');
+
+    selecao2 = document.querySelectorAll('.selecionado2');
+    indiceatual = callback.indiceatual / 2 | 0
+
+
+    selecao[indiceatual].style.border = "8px solid #ffe867ff"
+    selecao2[indiceatual].style.border = "8px solid #ffe867ff"
+
+    jogadores = callback.playerl
+
+
+
+
+
+    {
+
+
+
+    }
 
 
 })
-})}
+console.log(jogadores)
 
-
-
-let dados = carregarplayerl((callback)=>{ 
-  
- selecao = document.querySelectorAll('.selecionado');
-
- selecao2 = document.querySelectorAll('.selecionado2');
- indiceatual = callback.indiceatual/2|0
-
-
-selecao[indiceatual].style.border = "8px solid #ffe867ff"
-selecao2[indiceatual].style.border = "8px solid #ffe867ff"
-
-
-  
-
-})
-
-
-function totalplayers(){
+function totalplayers() {
     console.log("Total de players: " + totaldeplayers)
 
 }
@@ -101,134 +113,222 @@ function totalplayers(){
 
 
 
-function duplica()
-{
-  let indice_duplicar = totaldeplayers -21
-if(indiceatual>=indice_duplicar) {
+function duplica() {
+    let indice_duplicar = totaldeplayers - 21
+    if (indiceatual >= indice_duplicar) {
 
 
-  console.log( )
 
-let player_side = document.querySelector('.player-side.left')
-  
-//player_side.innerHTML =  grade1.imagem // limpa o conteudo
+        //let player_side = document.querySelector('.player-side.left')
 
-} 
+        //player_side.innerHTML =  grade1.imagem // limpa o conteudo
+
+    }
 
 
 }
 
-function mostraindiceefoto()
-{
 
- console.log(selecao[indiceatual])
+
+
+
+
+
+function radar(i) {
+
+
+
+    let def = jogadores[i].def
+    let Chacra = jogadores[i].chacra
+    let movimento = jogadores[i].movimento
+    let item = jogadores[i].item
+console.log( def)
+console.log( i)
+
+
  
- ultimoitemgrade = selecao[totaldeplayers -1].getBoundingClientRect()
 
-let fotohud1 =  document.querySelector('.sobreposta')
-fotohud1.src = imgselecao[indiceatual]
- nomep1.innerHTML = nomeplayer1[indiceatual]
+    const ctx = document.getElementById('radarp1')
+ 
+   if(mychart !=null)
+    {
+mychart.destroy()
+
+ 
+    }
+ 
+   mychart =  new Chart(ctx, {
+        type: 'radar',
+        data: {
+            labels: ['DEF', 'Chacra', 'V.MOVIMENTO', 'Res.ITEM'],
+            datasets: [{
+                data: [def, Chacra, movimento, item],
+
+                backgroundColor: 'rgba(255,140,0,0.35)', // preenchimento laranja
+                borderColor: '#ff8c00',
+                borderWidth: 2,
+
+                pointBackgroundColor: '#fff',
+                pointBorderColor: '#ff8c00',
+                pointRadius: 3
+            }]
+        },
+
+        options: {
+            responsive: false,
+            plugins: {
+                legend: { display: false }
+            },
+
+            scales: {
+                r: {
+                    min: 0,
+                    max: 1500,
+
+                    ticks: {
+                        display: false
+                    },
+
+                    grid: {
+                        color: 'rgba(0, 0, 0, 0.15)'
+                    },
+
+                    angleLines: {
+                        color: 'rgba(143, 255, 52, 0.2)'
+                    },
+
+                    pointLabels: {
+                        color: 'black',
+                        font: {
+                            size: 11,
+                            weight: 'bold'
+                        }
+                    }
+                }
+            }
+        }
+    });
+
+
  
 }
- 
 
 
-document.addEventListener('keydown', function(event)
- {
-
-if(event.key === "ArrowRight")
-{
 
 
-duplica()
 
-if(indiceatual >= totaldeplayers-2 ) {
- 
+function mostraindiceefoto() {
 
-  indicefoto = -indicefoto // inverte o sinal pra voltar ao começo da lista
- 
-    grade1.style.transform = `translateX(${indicefoto}px)`
+    console.log(selecao[indiceatual])
+    console.log(indiceatual)
+
+    radar(indiceatual)
+
+    ultimoitemgrade = selecao[totaldeplayers - 1].getBoundingClientRect()
+
+    let fotohud1 = document.querySelector('.sobreposta')
+    fotohud1.src = imgselecao[indiceatual]
+
+    let divnome = document.querySelector('.nomep1')
+
+    divnome.innerHTML = selecao[indiceatual].alt
+
+
+
+
+
+}
+
+
+
+document.addEventListener('keydown', function (event) {
+
+    if (event.key === "ArrowRight") {
+
+
+        duplica()
+
+        if (indiceatual >= totaldeplayers - 2) {
+
+
+            indicefoto = -indicefoto // inverte o sinal pra voltar ao começo da lista
+
+            grade1.style.transform = `translateX(${indicefoto}px)`
+            selecao[indiceatual].style.border = "4px solid #000";
+
+            indiceatual = 0
+            selecao[indiceatual].style.border = "8px solid #ffe867ff";
+
+            return
+        }
+
+        indicefoto -= 86
+        grade1.style.transform = `translateX(${indicefoto}px)`
+
+
+
+
         selecao[indiceatual].style.border = "4px solid #000";
+        indiceatual += 2
+        selecao[indiceatual].style.border = "8px solid #ffe867ff";
+        mostraindiceefoto()
+    }
 
-         indiceatual = 0
+    if (event.key === "ArrowLeft") {
+
+
+        if (indiceatual == 0 || indiceatual == 1) {
+
+            indicefoto = -indicefoto // inverte o sinal pra voltar ao começo da lista
+
+            grade1.style.transform = `translateX(${indicefoto}px)`
+            selecao[indiceatual].style.border = "4px solid #000";
+            indiceatual = totaldeplayers - 1
+            selecao[indiceatual].style.border = "8px solid #ffe867ff";
+
+            return
+
+        }
+
+        indicefoto += 86
+        grade1.style.transform = `translateX(${indicefoto}px)`
+        selecao[indiceatual].style.border = "4px solid #000";
+        indiceatual -= 2;
         selecao[indiceatual].style.border = "8px solid #ffe867ff";
 
-return
-} 
- 
-  indicefoto  -= 86
-  grade1.style.transform = `translateX(${indicefoto}px)`
+        mostraindiceefoto()
 
- 
+    }
+
+    if (event.key === "ArrowDown") {
 
 
-    selecao[indiceatual].style.border = "4px solid #000";
-    indiceatual+=2
-    selecao[indiceatual].style.border = "8px solid #ffe867ff";
- mostraindiceefoto()
-}
+        if (indiceatual % 2 == 1) {
+            return
+        }
 
-if(event.key === "ArrowLeft")
-{ 
-
-
-  if(indiceatual == 0  || indiceatual == 1) 
-    {
- 
- indicefoto = -indicefoto // inverte o sinal pra voltar ao começo da lista
- 
-    grade1.style.transform = `translateX(${indicefoto}px)`
         selecao[indiceatual].style.border = "4px solid #000";
-        indiceatual =  totaldeplayers -1
-       selecao[indiceatual].style.border = "8px solid #ffe867ff";
+        indiceatual += 1;
 
-return
-     
+        selecao[indiceatual].style.border = "8px solid #ffe867ff";
+        mostraindiceefoto()
     }
-
-    indicefoto  += 86
-   grade1.style.transform = `translateX(${indicefoto}px)`
-    selecao[indiceatual].style.border = "4px solid #000";
-    indiceatual -= 2;
-    selecao[indiceatual].style.border = "8px solid #ffe867ff";
- 
-mostraindiceefoto()
- 
-}
-
-if(event.key === "ArrowDown")
-{ 
+    if (event.key === "ArrowUp") {
 
 
-if(indiceatual % 2 == 1)
-    {
-return
+
+
+        if (indiceatual % 2 == 0) {
+            return
+        }
+
+        selecao[indiceatual].style.border = "4px solid #000";
+        indiceatual -= 1;
+
+        selecao[indiceatual].style.border = "8px solid #ffe867ff";
+        mostraindiceefoto()
+
     }
- 
-    selecao[indiceatual].style.border = "4px solid #000";
-    indiceatual += 1;
-
-    selecao[indiceatual].style.border = "8px solid #ffe867ff";
-  mostraindiceefoto()
-}
-if(event.key === "ArrowUp")
-{ 
-
-
-
- 
-   if(indiceatual % 2 == 0)
-    {
-return
-    }
-
- selecao[indiceatual].style.border = "4px solid #000";
-    indiceatual -= 1;
-
-    selecao[indiceatual].style.border = "8px solid #ffe867ff";
- mostraindiceefoto()
-
-}
 
 
 

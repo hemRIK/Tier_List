@@ -4,7 +4,8 @@
   font-family: 'Noto Sans JP', sans-serif;
   display: flex;
   flex-direction: column;
-  align-items: center;
+
+    overflow: hidden;
 
 }
 @font-face {
@@ -14,11 +15,12 @@
 
 
 
+ 
+
 .hud-container {
   display: flex;
-  justify-content: space-between;
-  width: 90%;
-  margin-top: -90px;
+  justify-content: space-around;
+
   z-index: 1;
 }
 
@@ -50,7 +52,7 @@
   display: flex;
   justify-content: flex-start;
   align-items: center;
- padding-bottom: 1rem;
+ padding-bottom:2px;
 }
 
 .player-icon {
@@ -136,12 +138,13 @@
 
 
 .hud-footer {
+  align-self: center;
   margin-top: 25px;
   background: #222;
   color: #fff;
   width: 70%;
   text-align: center;
-  padding: 10px;
+  padding: 5px;
   border-radius: 8px;
 }
 
@@ -163,17 +166,24 @@
   box-shadow: 0 2px 3px rgba(0,0,0,0.3)
 
 }
-.containerfoto {
- 
- 
+
+
+
+#radarp1
+{
+
+ width: 360px  !important;
+ height: 360px !important;
+ align-self:flex-end;
+ z-index: 1;
+ margin-left: 5%;
 }
 
 .fotohud1{
   
-position: relative;
-margin-left: -46%;
-
-  animation: rodar 10s linear infinite;
+position: absolute;
+inset: 0;
+animation: rodar 10s linear infinite;
 
 }
 
@@ -212,10 +222,9 @@ font-family: 'NinjaNaruto', sans-serif;
 
 }
 .nomep1{
-position:relative;
-  margin-top: 63%;
-margin-left: -44%;
+ 
 
+align-self: flex-end;
 
 
 
@@ -225,7 +234,7 @@ margin-left: -44%;
 
 
 
-  height: 50px;
+  height: 40px;
   width: 200px;
   background-color: #273E4B;
   border: 5px solid #D43E39;
@@ -234,7 +243,7 @@ margin-left: -44%;
     color: white;
     font-size: 25px;
     text-align: center;
-    margin-bottom: 2rem;
+    
   
       z-index: 10;
 
@@ -266,17 +275,18 @@ height: 200px;
 }
 .sobreposta
 {
-margin-top: 25%;
-margin-left: -50%;
-  position: absolute;
-
-  inset: 0;
+z-index: 1;
 
 }
 .conjunto_foto_rodar
 {
-position: relative;
- display: flex;
+    
+ 
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    height: 520px;
+    margin-left: 6%;
 }
 
 @keyframes rodar {

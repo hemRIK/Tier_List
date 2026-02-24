@@ -3,448 +3,752 @@
     "nome": "Shino Pts",
     "imagem": "img/players/Shino Pts.png",
     "link": "javascript:void(0)",
-    "imagem_selecao": "img/players/Fotoselecao/ShinoPts.png"
+    "imagem_selecao": "img/players/Fotoselecao/ShinoPts.png",
+     "def": "1000",
+     "chacra": "1000",
+     "movimento":"500",
+     "item":"800"
+     
+     
   },
   {
     "nome": "Shino Ts",
     "imagem": "img/players/Shino Ts.png",
     "link": "javascript:void(0)",
-    "imagem_selecao": "img/players/Fotoselecao/ShinoTs.png"
+    "imagem_selecao": "img/players/Fotoselecao/ShinoTs.png",
+     "def": "1000",
+     "chacra": "1000",
+     "movimento":"370.5",
+     "item":"800"
+     
+    
   },
   {
     "nome": "Shizune",
     "imagem": "img/players/Shizune.png",
     "link": "javascript:void(0)",
-    "imagem_selecao": "img/players/Fotoselecao/Shizune.png"
+    "imagem_selecao": "img/players/Fotoselecao/Shizune.png",
+     "def": "950",
+     "chacra": "1150",
+     "movimento":"437",
+     "item":"1500"
+    
     
   },
   {
     "nome": "Tayuya Lv2",
     "imagem": "img/players/Tayuya Lv2.PNG",
     "link": "javascript:void(0)",
-    "imagem_selecao": "img/players/Fotoselecao/Shizune.png"
+    "imagem_selecao": "img/players/Fotoselecao/Shizune.png",
+     "def": "850",
+     "chacra": "990",
+     "movimento":"370.5",
+     "item":"900"
     
   },
   {
     "nome": "Tayuya",
     "imagem": "img/players/Tayuya.png",
     "link": "javascript:void(0)",
-     "imagem_selecao": "img/players/Fotoselecao/Tayuya.png"
+     "imagem_selecao": "img/players/Fotoselecao/Tayuya.png",
+     "def": "950",
+     "chacra": "1100",
+     "movimento":"370.5",
+     "item":"1500"
   },
   {
     "nome": "Temari Pts",
     "imagem": "img/players/Temari Pts.png",
     "link": "javascript:void(0)",
-     "imagem_selecao": "img/players/Fotoselecao/TemariPts.png"
+     "imagem_selecao": "img/players/Fotoselecao/TemariPts.png",
+     "def": "900",
+     "chacra": "990",
+     "movimento":"370.5",
+     "item":"1000"
   },
   {
     "nome": "Temari Ts",
     "imagem": "img/players/Temari Ts.png",
     "link": "javascript:void(0)",
-    "imagem_selecao": "img/players/Fotoselecao/TemarTs.png"
+    "imagem_selecao": "img/players/Fotoselecao/TemarTs.png",
+     "def": "900",
+     "chacra": "990",
+     "movimento":"418",
+     "item":"1000"
   },
   {
     "nome": "Tenten Pts",
     "imagem": "img/players/Tenten Pts.png",
     "link": "javascript:void(0)",
-    "imagem_selecao": "img/players/Fotoselecao/TentenPts.png"
+    "imagem_selecao": "img/players/Fotoselecao/TentenPts.png",
+     "def": "900",
+     "chacra": "990",
+     "movimento":"418",
+     "item":"1000"
 
   },
   {
     "nome": "Tenten Ts",
     "imagem": "img/players/Tenten Ts.png",
     "link": "javascript:void(0)",
-    "imagem_selecao": "img/players/Fotoselecao/TentenTs.png"
+    "imagem_selecao": "img/players/Fotoselecao/TentenTs.png",
+     "def": "850",
+     "chacra": "1000",
+     "movimento":"380",
+     "item":"1000"
   },
   {
-    "nome": "Time Kohonomaru",
+    "nome": "Time Konohamaru",
     "imagem": "img/players/Time Kohonomaru.png",
     "link": "javascript:void(0)",
-    "imagem_selecao": "img/players/Fotoselecao/TimeKohonomaru.png"
+    "imagem_selecao": "img/players/Fotoselecao/TimeKohonomaru.png",
+     "def": "850",
+     "chacra": "1000",
+     "movimento":"522.5",
+     "item":"1350"
   },
   {
     "nome": "Tsunade",
     "imagem": "img/players/Tsunade.png",
     "link": "javascript:void(0)",
-    "imagem_selecao": "img/players/Fotoselecao/Tsunade.png"
+    "imagem_selecao": "img/players/Fotoselecao/Tsunade.png",
+     "def": "1000",
+     "chacra": "1150",
+     "movimento":"456",
+     "item":"1500"
   },
   {
     "nome": "Yamato",
     "imagem": "img/players/Yamato.png",
     "link": "javascript:void(0)",
-    "imagem_selecao": "img/players/Fotoselecao/yamato.png"
+    "imagem_selecao": "img/players/Fotoselecao/yamato.png",
+     "def": "1000",
+     "chacra": "1000",
+     "movimento":"475",
+     "item":"1000"
   },
   {
     "nome": "Zabuza",
     "imagem": "img/players/Zabuza.png",
     "link": "javascript:void(0)",
-    "imagem_selecao": "img/players/Fotoselecao/Zabuza.png"
+    "imagem_selecao": "img/players/Fotoselecao/Zabuza.png",
+     "def": "900",
+     "chacra": "1000",
+     "movimento":"408.5",
+     "item":"1000"
   },
   {
-    "nome": "1 Hokage",
+    "nome": "Hashirama Senju",
     "imagem": "img/players/1 Hokage.png",
     "link": "javascript:void(0)",
-    "imagem_selecao": "img/players/Fotoselecao/1Hokage.png"
+    "imagem_selecao": "img/players/Fotoselecao/1Hokage.png",
+     "def": "1000",
+     "chacra": "1000",
+     "movimento":"456",
+     "item":"1200"
 
   },
   {
-    "nome": "2 hokage",
+    "nome": "Nidaime",
     "imagem": "img/players/2 hokage.png",
     "link": "javascript:void(0)",
-     "imagem_selecao": "img/players/Fotoselecao/2Hokage.png"
+     "imagem_selecao": "img/players/Fotoselecao/2Hokage.png",
+     "def": "1100",
+     "chacra": "1100",
+     "movimento":"475",
+     "item":"1000"
   },
   {
-    "nome": "3 hokage",
+    "nome": "Hiruzen",
     "imagem": "img/players/3 hokage.png",
     "link": "javascript:void(0)",
-     "imagem_selecao": "img/players/Fotoselecao/3Hokage.png"
+     "imagem_selecao": "img/players/Fotoselecao/3Hokage.png",
+     "def": "950",
+     "chacra": "990",
+     "movimento":"475",
+     "item":"900"
   },
   {
-    "nome": "4 hokage",
+    "nome": "Minato",
     "imagem": "img/players/4 hokage.png",
     "link": "javascript:void(0)",
-    "imagem_selecao": "img/players/Fotoselecao/4Hokage.png"
+    "imagem_selecao": "img/players/Fotoselecao/4Hokage.png",
+     "def": "900",
+     "chacra": "1500",
+     "movimento":"475",
+     "item":"1000"
+
     },
   {
     "nome": "Anko",
     "imagem": "img/players/Anko.png",
     "link": "javascript:void(0)",
-    "imagem_selecao": "img/players/Fotoselecao/anko.png"
+    "imagem_selecao": "img/players/Fotoselecao/anko.png",
+     "def": "950",
+     "chacra": "1045",
+     "movimento":"418",
+     "item":"1000"
+
   },
   {
-    "nome": "Assuma",
+    "nome": "Asuma",
     "imagem": "img/players/Assuma.png",
     "link": "javascript:void(0)",
-    "imagem_selecao": "img/players/Fotoselecao/asuma.png"
+    "imagem_selecao": "img/players/Fotoselecao/asuma.png",
+     "def": "950",
+     "chacra": "1000",
+     "movimento":"456",
+     "item":"1000"
   },
   {
     "nome": "Chouji Lv2",
     "imagem": "img/players/Chouji Lv2.PNG",
     "link": "javascript:void(0)",
-    "imagem_selecao": "img/players/Fotoselecao/asuma.png"
+    "imagem_selecao": "img/players/Fotoselecao/asuma.png",
+     "def": "1100",
+     "chacra": "990",
+     "movimento":"446.5",
+     "item":"900"
   },
   {
     "nome": "Chouji Pts",
     "imagem": "img/players/Chouji Pts.png",
     "link": "javascript:void(0)",
-    "imagem_selecao": "img/players/Fotoselecao/ChoujiPts.png"
+    "imagem_selecao": "img/players/Fotoselecao/ChoujiPts.png",
+     "def": "1050",
+     "chacra": "935",
+     "movimento":"237.5",
+     "item":"1200"
   },
   {
     "nome": "Chouji Ts",
     "imagem": "img/players/Chouji Ts.png",
     "link": "javascript:void(0)",
-    "imagem_selecao": "img/players/Fotoselecao/choji.png"
+    "imagem_selecao": "img/players/Fotoselecao/choji.png",
+     "def": "1050",
+     "chacra": "935",
+     "movimento":"256.5",
+     "item":"1200"
   },
   {
     "nome": "Deidara",
     "imagem": "img/players/Deidara.png",
     "link": "javascript:void(0)",
-    "imagem_selecao": "img/players/Fotoselecao/Deidara.png"
+    "imagem_selecao": "img/players/Fotoselecao/Deidara.png",
+     "def": "900",
+     "chacra": "1000",
+     "movimento":"380",
+     "item":"1100"
   },
   {
     "nome": "Shukaku",
     "imagem": "img/players/Gaara pts Lv2.PNG",
     "link": "javascript:void(0)",
-    "imagem_selecao": "img/players/Fotoselecao/Gaarapts.png"
+    "imagem_selecao": "img/players/Fotoselecao/Gaarapts.png",
+     "def": "1200",
+     "chacra": "990",
+     "movimento":"142.5",
+     "item":"900"
   },
   {
     "nome": "Gaara pts",
     "imagem": "img/players/Gaara pts.png",
     "link": "javascript:void(0)",
-    "imagem_selecao": "img/players/Fotoselecao/Gaarapts.png"
+    "imagem_selecao": "img/players/Fotoselecao/Gaarapts.png",
+     "def": "1100",
+     "chacra": "990",
+     "movimento":"237.5",
+     "item":"900"
   },
   {
     "nome": "Gaara Ts",
     "imagem": "img/players/Gaara Ts.png",
     "link": "javascript:void(0)",
-    "imagem_selecao": "img/players/Fotoselecao/GaaraTs.png"
+    "imagem_selecao": "img/players/Fotoselecao/GaaraTs.png",
+     "def": "1100",
+     "chacra": "990",
+     "movimento":"304.5",
+     "item":"900"
   },
   {
     "nome": "Jiroubou Lv2",
     "imagem": "img/players/JiroubouLv2.PNG",
     "link": "javascript:void(0)",
-    "imagem_selecao": "img/players/Fotoselecao/Jiroubou.png"
+    "imagem_selecao": "img/players/Fotoselecao/Jiroubou.png",
+     "def": "1200",
+     "chacra": "1200",
+     "movimento":"361",
+     "item":"900"
   },
   {
     "nome": "Jiroubou",
     "imagem": "img/players/Jiroubou.png",
     "link": "javascript:void(0)",
-    "imagem_selecao": "img/players/Fotoselecao/Jiroubou.png"
+    "imagem_selecao": "img/players/Fotoselecao/Jiroubou.png",
+     "def": "1050",
+     "chacra": "935",
+     "movimento":"361",
+     "item":"1200"
   },
   {
     "nome": "Guy",
     "imagem": "img/players/Guy.png",
     "link": "javascript:void(0)",
-    "imagem_selecao": "img/players/Fotoselecao/Guy.png"
+    "imagem_selecao": "img/players/Fotoselecao/Guy.png",
+     "def": "900",
+     "chacra": "1000",
+     "movimento":"570",
+     "item":"1000"
   },
   {
     "nome": "Haku",
     "imagem": "img/players/Haku.png",
     "link": "javascript:void(0)",
-    "imagem_selecao": "img/players/Fotoselecao/Haku.png"
+    "imagem_selecao": "img/players/Fotoselecao/Haku.png",
+     "def": "1100",
+     "chacra": "1000",
+     "movimento":"456",
+     "item":"1000"
   },
   {
     "nome": "Hanabi",
     "imagem": "img/players/Hanabi.png",
     "link": "javascript:void(0)",
-    "imagem_selecao": "img/players/Fotoselecao/Hanabi.png"
+    "imagem_selecao": "img/players/Fotoselecao/Hanabi.png",
+     "def": "850",
+     "chacra": "1100",
+     "movimento":"446.5",
+     "item":"1300"
   },
   {
     "nome": "Hinata Pts",
     "imagem": "img/players/Hinata Pts.png",
     "link": "javascript:void(0)",
-    "imagem_selecao": "img/players/Fotoselecao/HinataPts.png"
+    "imagem_selecao": "img/players/Fotoselecao/HinataPts.png",
+     "def": "850",
+     "chacra": "1100",
+     "movimento":"361",
+     "item":"1000"
   },
   {
     "nome": "Hinata Ts",
     "imagem": "img/players/Hinata Ts.png",
     "link": "javascript:void(0)",
-    "imagem_selecao": "img/players/Fotoselecao/HinataTs.png"
+    "imagem_selecao": "img/players/Fotoselecao/HinataTs.png",
+     "def": "850",
+     "chacra": "1100",
+     "movimento":"361",
+     "item":"1000"
   },
   {
     "nome": "Ino Pts",
     "imagem": "img/players/Ino Pts.png",
     "link": "javascript:void(0)",
-    "imagem_selecao": "img/players/Fotoselecao/Gaarapts.png"
+    "imagem_selecao": "img/players/Fotoselecao/Gaarapts.png",
+     "def": "1000",
+     "chacra": "1000",
+     "movimento":"370.5",
+     "item":"1400"
   },
   {
     "nome": "Ino Ts",
     "imagem": "img/players/Ino Ts.png",
     "link": "javascript:void(0)",
-    "imagem_selecao": "img/players/Fotoselecao/InoTs.png"
+    "imagem_selecao": "img/players/Fotoselecao/InoTs.png",
+     "def": "1000",
+     "chacra": "1000",
+     "movimento":"418",
+     "item":"1400"
   },
   {
     "nome": "Itachi",
     "imagem": "img/players/Itachi.png",
     "link": "javascript:void(0)",
-    "imagem_selecao": "img/players/Fotoselecao/Itachi.png"
+    "imagem_selecao": "img/players/Fotoselecao/Itachi.png",
+     "def": "1000",
+     "chacra": "1000",
+     "movimento":"522.5",
+     "item":"1000"
   },
   {
-    "nome": "Jiraya",
+    "nome": "Jiraiya",
     "imagem": "img/players/Jiraya.png",
     "link": "javascript:void(0)",
-    "imagem_selecao": "img/players/Fotoselecao/Jiraya.png"
+    "imagem_selecao": "img/players/Fotoselecao/Jiraya.png",
+     "def": "1200",
+     "chacra": "1150",
+     "movimento":"399",
+     "item":"900"
+
   },
   {
     "nome": "Kabuto",
     "imagem": "img/players/Kabuto.png",
     "link": "javascript:void(0)",
-    "imagem_selecao": "img/players/Fotoselecao/Kabuto.png"
+    "imagem_selecao": "img/players/Fotoselecao/Kabuto.png",
+     "def": "950",
+     "chacra": "1150",
+     "movimento":"475",
+     "item":"1500"
   },
   {
     "nome": "Kakashi",
     "imagem": "img/players/Kakashi.png",
     "link": "javascript:void(0)",
-    "imagem_selecao": "img/players/Fotoselecao/Kakashi.png"
+    "imagem_selecao": "img/players/Fotoselecao/Kakashi.png",
+     "def": "1000",
+     "chacra": "1000",
+     "movimento":"475",
+     "item":"1000"
   },
   {
     "nome": "Kankuro Pts",
     "imagem": "img/players/Kankuro Pts.png",
     "link": "javascript:void(0)",
-    "imagem_selecao": "img/players/Fotoselecao/KankuroPts.png"
+    "imagem_selecao": "img/players/Fotoselecao/KankuroPts.png",
+     "def": "1050",
+     "chacra": "990",
+     "movimento":"332.5",
+     "item":"850"
   },
   {
     "nome": "Kankuro Ts",
     "imagem": "img/players/Kankuro Ts.png",
     "link": "javascript:void(0)",
-    "imagem_selecao": "img/players/Fotoselecao/KankuroTs.png"
+    "imagem_selecao": "img/players/Fotoselecao/KankuroTs.png",
+     "def": "1050",
+     "chacra": "990",
+     "movimento":"332.5",
+     "item":"850"
   },
   {
     "nome": "Kiba Pts",
     "imagem": "img/players/Kiba Pts.png",
     "link": "javascript:void(0)",
-    "imagem_selecao": "img/players/Fotoselecao/KibaPts.png"
+    "imagem_selecao": "img/players/Fotoselecao/KibaPts.png",
+     "def": "950",
+     "chacra": "1000",
+     "movimento":"437",
+     "item":"1000"
   },
   {
     "nome": "Kiba Ts",
     "imagem": "img/players/Kiba Ts.png",
     "link": "javascript:void(0)",
-    "imagem_selecao": "img/players/Fotoselecao/Kibats.png"
+    "imagem_selecao": "img/players/Fotoselecao/Kibats.png",
+     "def": "950",
+     "chacra": "1000",
+     "movimento":"437",
+     "item":"1000"
   },
   {
     "nome": "Kidomaru Lv2",
     "imagem": "img/players/Kidomaru Lv2.PNG",
     "link": "javascript:void(0)",
-    "imagem_selecao": "img/players/Fotoselecao/Kidomaru.png"
+    "imagem_selecao": "img/players/Fotoselecao/Kidomaru.png",
+     "def": "1100",
+     "chacra": "1000",
+     "movimento":"370.5",
+     "item":"800"
   },
   {
     "nome": "Kidomaru",
     "imagem": "img/players/Kidomaru.png",
     "link": "javascript:void(0)",
-    "imagem_selecao": "img/players/Fotoselecao/Kidomaru.png"
+    "imagem_selecao": "img/players/Fotoselecao/Kidomaru.png",
+     "def": "1000",
+     "chacra": "1000",
+     "movimento":"370.5",
+     "item":"800"
   },
   {
     "nome": "Kimimaru Lv2",
     "imagem": "img/players/Kimimaru Lv2.png",
     "link": "javascript:void(0)",
-    "imagem_selecao": "img/players/Fotoselecao/Kimimaru.png"
+    "imagem_selecao": "img/players/Fotoselecao/Kimimaru.png",
+     "def": "1100",
+     "chacra": "1000",
+     "movimento":"437",
+     "item":"900"
   },
   {
     "nome": "Kimimaru",
     "imagem": "img/players/Kimimaru.png",
     "link": "javascript:void(0)",
-    "imagem_selecao": "img/players/Fotoselecao/Kimimaru.png"
+    "imagem_selecao": "img/players/Fotoselecao/Kimimaru.png",
+     "def": "950",
+     "chacra": "1000",
+     "movimento":"437",
+     "item":"1000"
   },
   {
     "nome": "Kisame",
     "imagem": "img/players/Kisame.png",
     "link": "javascript:void(0)",
-    "imagem_selecao": "img/players/Fotoselecao/Kisame.png"
+    "imagem_selecao": "img/players/Fotoselecao/Kisame.png",
+     "def": "900",
+     "chacra": "1000",
+     "movimento":"342",
+     "item":"1000"
   },
   {
     "nome": "Kurenai",
     "imagem": "img/players/Kurenai.png",
     "link": "javascript:void(0)",
-    "imagem_selecao": "img/players/Fotoselecao/Kurenai.png"
+    "imagem_selecao": "img/players/Fotoselecao/Kurenai.png",
+     "def": "950",
+     "chacra": "1000",
+     "movimento":"437",
+     "item":"1000"
   },
   {
     "nome": "Lee Lv2",
     "imagem": "img/players/Lee Lv2.PNG",
     "link": "javascript:void(0)",
-    "imagem_selecao": "img/players/Fotoselecao/LeePts.png"
+    "imagem_selecao": "img/players/Fotoselecao/LeePts.png",
+     "def": "1150",
+     "chacra": "1100",
+     "movimento":"513",
+     "item":"1300"
   },
   {
     "nome": "Lee Pts",
     "imagem": "img/players/Lee Pts.png",
     "link": "javascript:void(0)",
-    "imagem_selecao": "img/players/Fotoselecao/LeePts.png"
+    "imagem_selecao": "img/players/Fotoselecao/LeePts.png",
+     "def": "1100",
+     "chacra": "880",
+     "movimento":"494",
+     "item":"1000"
   },
   {
     "nome": "Lee Ts",
     "imagem": "img/players/Lee Ts.png",
     "link": "javascript:void(0)",
-    "imagem_selecao": "img/players/Fotoselecao/LeeTs.png"
+    "imagem_selecao": "img/players/Fotoselecao/LeeTs.png",
+     "def": "1100",
+     "chacra": "880",
+     "movimento":"494",
+     "item":"1000"
   },
   {
     "nome": "Naruto Pts Lv2",
     "imagem": "img/players/Naruto Pts Lv2.PNG",
     "link": "javascript:void(0)",
-    "imagem_selecao": "img/players/Fotoselecao/narutopts.png"
+    "imagem_selecao": "img/players/Fotoselecao/narutopts.png",
+     "def": "1200",
+     "chacra": "1500",
+     "movimento":"475",
+     "item":"1100"
   },
   {
     "nome": "Naruto Pts",
     "imagem": "img/players/Naruto Pts.png",
     "link": "javascript:void(0)",
-    "imagem_selecao": "img/players/Fotoselecao/narutopts.png"
+    "imagem_selecao": "img/players/Fotoselecao/narutopts.png",
+     "def": "900",
+     "chacra": "1200",
+     "movimento":"380",
+     "item":"1200"
   },
   {
     "nome": "Naruto Ts Lv2",
     "imagem": "img/players/Naruto Ts Lv2.png",
     "link": "javascript:void(0)",
-    "imagem_selecao": "img/players/Fotoselecao/Narutots.png"
+    "imagem_selecao": "img/players/Fotoselecao/Narutots.png",
+     "def": "1200",
+     "chacra": "1500",
+     "movimento":"494",
+     "item":"1100"
   },
   {
     "nome": "Naruto ts",
     "imagem": "img/players/Naruto ts.png",
      "link": "javascript:void(0)",
-    "imagem_selecao": "img/players/Fotoselecao/Narutots.png"
+    "imagem_selecao": "img/players/Fotoselecao/Narutots.png",
+     "def": "900",
+     "chacra": "1200",
+     "movimento":"399",
+     "item":"1200"
   },
   {
     "nome": "Neji pts",
     "imagem": "img/players/Neji pts.png",
     "link": "javascript:void(0)",
-    "imagem_selecao": "img/players/Fotoselecao/Nejipts.png"
+    "imagem_selecao": "img/players/Fotoselecao/Nejipts.png",
+     "def": "900",
+     "chacra": "1000",
+     "movimento":"446.5",
+     "item":"950"
   },
   {
     "nome": "Neji Ts",
     "imagem": "img/players/Neji Ts.png",
     "link": "javascript:void(0)",
-    "imagem_selecao": "img/players/Fotoselecao/NejiTs.png"
+    "imagem_selecao": "img/players/Fotoselecao/NejiTs.png",
+     "def": "900",
+     "chacra": "1000",
+     "movimento":"446.5",
+     "item":"950"
   },
   {
     "nome": "Orochimaru",
     "imagem": "img/players/Orochimaru.png",
     "link": "javascript:void(0)",
-    "imagem_selecao": "img/players/Fotoselecao/Orochimaru.png"
+    "imagem_selecao": "img/players/Fotoselecao/Orochimaru.png",
+     "def": "1050",
+     "chacra": "880",
+     "movimento":"475",
+     "item":"1300"
   },
   {
-    "nome": "Reia(marionete)",
+    "nome": "chiyo Marionete",
     "imagem": "img/players/Reia(marionete).png",
     "link": "javascript:void(0)",
-    "imagem_selecao": "img/players/Fotoselecao/Reia(marionete).png"
+    "imagem_selecao": "img/players/Fotoselecao/Reia(marionete).png",
+     "def": "900",
+     "chacra": "1100",
+     "movimento":"285",
+     "item":"1200"
   },
   {
-    "nome": "Reia",
+    "nome": "chiyo",
     "imagem": "img/players/Reia.png",
     "link": "javascript:void(0)",
-    "imagem_selecao": "img/players/Fotoselecao/Reia.png"
+    "imagem_selecao": "img/players/Fotoselecao/Reia.png",
+     "def": "900",
+     "chacra": "1150",
+     "movimento":"285",
+     "item":"1500"
   },
   {
     "nome": "Sai",
     "imagem": "img/players/Sai.png",
     "link": "javascript:void(0)",
-    "imagem_selecao": "img/players/Fotoselecao/Sai.png"
+    "imagem_selecao": "img/players/Fotoselecao/Sai.png",
+     "def": "1000",
+     "chacra": "1000",
+     "movimento":"475",
+     "item":"1000"
   },
   {
     "nome": "Sakon Lv2",
     "imagem": "img/players/Sakon Lv2.PNG",
     "link": "javascript:void(0)",
-    "imagem_selecao": "img/players/Fotoselecao/sakon.png"
+    "imagem_selecao": "img/players/Fotoselecao/sakon.png",
+     "def": "1100",
+     "chacra": "1000",
+     "movimento":"437",
+     "item":"900"
   },
   {
     "nome": "sakon",
     "imagem": "img/players/sakon.png",
     "link": "javascript:void(0)",
-    "imagem_selecao": "img/players/Fotoselecao/sakon.png"
+    "imagem_selecao": "img/players/Fotoselecao/sakon.png",
+     "def": "900",
+     "chacra": "1045",
+     "movimento":"437",
+     "item":"1000"
   },
   {
     "nome": "Sakura Pts",
     "imagem": "img/players/Sakura Pts.png",
     "link": "javascript:void(0)",
-    "imagem_selecao": "img/players/Fotoselecao/SakuraPts.png"
+    "imagem_selecao": "img/players/Fotoselecao/SakuraPts.png",
+     "def": "900",
+     "chacra": "1100",
+     "movimento":"370.5",
+     "item":"1400"
   },
   {
     "nome": "Sakura Ts",
     "imagem": "img/players/Sakura Ts.png",
     "link": "javascript:void(0)",
-    "imagem_selecao": "img/players/Fotoselecao/SakuraTs.png"
+    "imagem_selecao": "img/players/Fotoselecao/SakuraTs.png",
+     "def": "800",
+     "chacra": "1100",
+     "movimento":"456",
+     "item":"1500"
   },
   {
     "nome": "Sasori Lv2",
     "imagem": "img/players/Sasori Lv2.png",
     "link": "javascript:void(0)",
-    "imagem_selecao": "img/players/Fotoselecao/Sasori.png"
+    "imagem_selecao": "img/players/Fotoselecao/Sasori.png",
+     "def": "900",
+     "chacra": "1200",
+     "movimento":"475",
+     "item":"1200"
   },
   {
     "nome": "Hiruko",
     "imagem": "img/players/Sasori(Hiruku).png",
     "link": "javascript:void(0)",
-    "imagem_selecao": "img/players/Fotoselecao/Hiruko.png"
+    "imagem_selecao": "img/players/Fotoselecao/Hiruko.png",
+     "def": "0",
+     "chacra": "0",
+     "movimento":"0",
+     "item":"0"
   },
   {
     "nome": "Sasori",
     "imagem": "img/players/Sasori.png",
     "link": "javascript:void(0)",
-    "imagem_selecao": "img/players/Fotoselecao/Sasori.png"
+    "imagem_selecao": "img/players/Fotoselecao/Sasori.png",
+     "def": "900",
+     "chacra": "990",
+     "movimento":"456",
+     "item":"1200"
   },
   {
     "nome": "Sasuke Pts Lv2",
     "imagem": "img/players/Sasuke Pts Lv2.PNG",
     "link": "javascript:void(0)",
-    "imagem_selecao": "img/players/Fotoselecao/SasukePts.png"
+    "imagem_selecao": "img/players/Fotoselecao/SasukePts.png",
+     "def": "1100",
+     "chacra": "990",
+     "movimento":"456",
+     "item":"900"
   },
   {
     "nome": "Sasuke Pts",
     "imagem": "img/players/Sasuke Pts.png",
     "link": "javascript:void(0)",
-    "imagem_selecao": "img/players/Fotoselecao/SasukePts.png"
+    "imagem_selecao": "img/players/Fotoselecao/SasukePts.png",
+     "def": "1000",
+     "chacra": "1000",
+     "movimento":"456",
+     "item":"1000"
   },
   {
     "nome": "sasuke Ts",
     "imagem": "img/players/sasuke Ts.png",
     "link": "javascript:void(0)",
-    "imagem_selecao": "img/players/Fotoselecao/sasukeTs.png"
+    "imagem_selecao": "img/players/Fotoselecao/sasukeTs.png",
+     "def": "1000",
+     "chacra": "1000",
+     "movimento":"456",
+     "item":"1000"
   },
   {
     "nome": "shikamaru Pts",
     "imagem": "img/players/shikamaru Pts.png",
     "link": "javascript:void(0)",
-    "imagem_selecao": "img/players/Fotoselecao/shikamaruPts.png"
+    "imagem_selecao": "img/players/Fotoselecao/shikamaruPts.png",
+     "def": "1000",
+     "chacra": "1000",
+     "movimento":"361",
+     "item":"900"
   },
   {
     "nome": "Shikamaru Ts",
     "imagem": "img/players/Shikamaru Ts.png",
     "link": "javascript:void(0)",
-    "imagem_selecao": "img/players/Fotoselecao/ShikamaruTs.png"
+    "imagem_selecao": "img/players/Fotoselecao/ShikamaruTs.png",
+     "def": "1000",
+     "chacra": "1000",
+     "movimento":"361",
+     "item":"900"
   }
 ]
