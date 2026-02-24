@@ -20,7 +20,7 @@ let nomep1 = document.querySelector('.nomep2')
 let nomeplayer1 = []
 let imgselecao = []
 let jogadores = []
-let mychart = null;  
+let mychart = null;
 function carregarplayerl(callback) {
 
     fetch('Tier.json')
@@ -142,22 +142,21 @@ function radar(i) {
     let Chacra = jogadores[i].chacra
     let movimento = jogadores[i].movimento
     let item = jogadores[i].item
-console.log( def)
-console.log( i)
+    console.log(def)
+    console.log(i)
 
 
- 
+
 
     const ctx = document.getElementById('radarp1')
- 
-   if(mychart !=null)
-    {
-mychart.destroy()
 
- 
+    if (mychart != null) {
+        mychart.destroy()
+
+
     }
- 
-   mychart =  new Chart(ctx, {
+
+    mychart = new Chart(ctx, {
         type: 'radar',
         data: {
             labels: ['DEF', 'Chacra', 'V.MOVIMENTO', 'Res.ITEM'],
@@ -210,7 +209,7 @@ mychart.destroy()
     });
 
 
- 
+
 }
 
 

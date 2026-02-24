@@ -1,53 +1,55 @@
 <!DOCTYPE html>
 <html lang="ja">
+
 <head>
   <meta charset="UTF-8">
   <title>Naruto Accel 2 HUD</title>
   <link rel="stylesheet" href="style.css">
-    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 </head>
+
 <body>
 
   <audio autoplay loop>
-  <source src="music\rpg02.wav" type="audio/mpeg">
-  Seu navegador não suporta áudio.
-</audio>
-
- 
- 
-     <div class = "conjunto_foto_rodar">
-
-         <img src="img/players/Fotoselecao/Kabuto.png" alt="Foto 1" class="sobreposta" id="sobreposta">    
-         <img src="img/rodar.png" alt="Foto 1" class="fotohud1" id="fotohud1">    
-         
-         
-        <canvas id = "radarp1">{{volumedata}} </canvas>
-
-      </div>
+    <source src="music\rpg02.wav" type="audio/mpeg">
+    Seu navegador não suporta áudio.
+  </audio>
 
 
 
+  <div class="conjunto_foto_rodar">
 
- 
+    <img src="img/players/Fotoselecao/Kabuto.png" alt="Foto 1" class="sobreposta" id="sobreposta">
+    <img src="img/rodar.png" alt="Foto 1" class="fotohud1" id="fotohud1">
 
-  
+
+    <canvas id="radarp1">{{volumedata}} </canvas>
+
+  </div>
+
+
+
+
+
+
+
 
   <div class="hud-container">
-    
+
     <!-- Player 1 -->
     <div class="player-side left">
       <div class="player-header">
-         <div class="nomep1" id="nomep1">NOME p1</div> 
-       
+        <div class="nomep1" id="nomep1">NOME p1</div>
+
 
       </div>
 
-     
 
-      <div class="grade1" id = "grade1">
-        
-       
-  
+
+      <div class="grade1" id="grade1">
+
+
+
 
       </div>
     </div>
@@ -58,28 +60,31 @@
         <div class="player-icon">2P</div>
       </div>
 
-    
 
-      <div class="grade2" id = "grade2">
 
-        
+      <div class="grade2" id="grade2">
+
+
 
       </div>
-      
+
     </div>
-    
+
   </div>
 
-    <footer class="hud-footer">
+  <footer class="hud-footer">
     <div class="buttons">
 
-   
-      <span> 
-        
-         <img src="img\WSDA.png" alt="WSDA"> <div class ="pfooter">1P</div>
-        </span>
-      
-      <span> <img src="img\setas.png" alt="SETAS"> <div class ="pfooter">2P</div> </span>
+
+      <span>
+
+        <img src="img\WSDA.png" alt="WSDA">
+        <div class="pfooter">1P</div>
+      </span>
+
+      <span> <img src="img\setas.png" alt="SETAS">
+        <div class="pfooter">2P</div>
+      </span>
     </div>
   </footer>
 
@@ -88,4 +93,5 @@
 
   <script src="java.js"></script>
 </body>
+
 </html>
