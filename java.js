@@ -332,3 +332,70 @@ document.addEventListener('keydown', function (event) {
 
 
 })
+
+
+
+function playmusica()
+{
+
+    document.addEventListener("click",()=>{
+
+document.getElementById("musica").play()
+
+
+    })
+
+
+}
+
+playmusica()
+let indice = 0;             
+
+function mudamusica() 
+{
+
+const playerclick =  document.getElementById("musica")
+
+
+const listaDemusicas =
+[
+ "music/stage00.wav",
+ "music/stage01.wav",
+ "music/stage02.wav",
+ "music/stage03.wav",
+ "music/stage04.wav",
+ "music/stage05.wav",
+ "music/stage06.wav",
+ "music/stage07.wav",
+
+ "music/rpg00.wav",
+  "music/rpg01.wav",
+   "music/rpg02.wav",
+    "music/rpg03.wav",
+     "music/rpg04.wav",
+ 
+
+"music/btl00.wav",
+"music/btl01.wav",
+"music/btl02.wav",
+"music/btl03.wav",
+"music/btl04.wav",
+"music/btl05.wav",
+"music/btl06.wav",
+"music/btl07.wav"
+
+]
+document.addEventListener("dblclick",()=>{
+
+indice = (indice + 1) % listaDemusicas.length;
+  playerclick.src = listaDemusicas[indice];
+  playerclick.play();
+                       
+console.log(listaDemusicas[indice])
+})
+
+
+
+
+}
+mudamusica()
