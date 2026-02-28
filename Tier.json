@@ -6,7 +6,7 @@
     "imagem_selecao": "img/players/Fotoselecao/ShinoPts.png",
     "def": "1000",
     "chacra": "1000",
-    "movimento": "500",
+    "movimento": "370.5",
     "item": "800"
   },
   {
@@ -47,7 +47,7 @@
     "def": "950",
     "chacra": "1100",
     "movimento": "370.5",
-    "item": "1500"
+    "item": "1400"
   },
   {
     "nome": "Temari Pts",
@@ -74,9 +74,9 @@
     "imagem": "img/players/Tenten Pts.png",
     "link": "javascript:void(0)",
     "imagem_selecao": "img/players/Fotoselecao/TentenPts.png",
-    "def": "900",
-    "chacra": "990",
-    "movimento": "418",
+    "def": "950",
+    "chacra": "1000",
+    "movimento": "370.5",
     "item": "1000"
   },
   {
@@ -84,7 +84,7 @@
     "imagem": "img/players/Tenten Ts.png",
     "link": "javascript:void(0)",
     "imagem_selecao": "img/players/Fotoselecao/TentenTs.png",
-    "def": "850",
+    "def": "950",
     "chacra": "1000",
     "movimento": "380",
     "item": "1000"
@@ -141,9 +141,9 @@
   },
   {
     "nome": "Nidaime",
-    "imagem": "img/players/2 hokage.png",
+    "imagem": "img/players/Nidaime.png",
     "link": "javascript:void(0)",
-    "imagem_selecao": "img/players/Fotoselecao/2Hokage.png",
+    "imagem_selecao": "img/players/Fotoselecao/nindaime.png",
     "def": "1100",
     "chacra": "1100",
     "movimento": "475",
@@ -256,7 +256,7 @@
     "imagem_selecao": "img/players/Fotoselecao/GaaraTs.png",
     "def": "1100",
     "chacra": "990",
-    "movimento": "304.5",
+    "movimento": "304",
     "item": "900"
   },
   {
@@ -333,7 +333,7 @@
     "nome": "Ino Pts",
     "imagem": "img/players/Ino Pts.png",
     "link": "javascript:void(0)",
-    "imagem_selecao": "img/players/Fotoselecao/Gaarapts.png",
+    "imagem_selecao": "img/players/Fotoselecao/InoPts.png",
     "def": "1000",
     "chacra": "1000",
     "movimento": "370.5",
@@ -674,9 +674,9 @@
     "imagem": "img/players/Sasori(Hiruku).png",
     "link": "javascript:void(0)",
     "imagem_selecao": "img/players/Fotoselecao/Hiruko.png",
-    "def": "0",
-    "chacra": "0",
-    "movimento": "0",
+    "def": "1000",
+    "chacra": "880",
+    "movimento": "133",
     "item": "0"
   },
   {
@@ -685,7 +685,7 @@
     "link": "javascript:void(0)",
     "imagem_selecao": "img/players/Fotoselecao/Sasori.png",
     "def": "900",
-    "chacra": "990",
+    "chacra": "1200",
     "movimento": "456",
     "item": "1200"
   },
