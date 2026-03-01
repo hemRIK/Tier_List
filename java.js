@@ -142,7 +142,7 @@ function radar(i) {
     let Chacra = jogadores[i].chacra
     let movimento = jogadores[i].movimento
     let item = jogadores[i].item
-   
+
 
 
 
@@ -382,7 +382,7 @@ function mudamusica() {
 
         ]
     document.addEventListener("dblclick", () => {
-        
+
         indice = (indice + 1) % listaDemusicas.length;
         playerclick.src = listaDemusicas[indice];
         playerclick.play();
