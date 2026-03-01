@@ -378,7 +378,23 @@ function mudamusica() {
             "music/btl04.wav",
             "music/btl05.wav",
             "music/btl06.wav",
-            "music/btl07.wav"
+            "music/btl07.wav",
+
+            "music/ev00.wav",
+            "music/ev01.wav",
+            "music/ev02.wav",
+            "music/ev03.wav",
+            "music/ev04.wav",
+            "music/ev05.wav",
+            "music/ev06.wav",
+            "music/ev07.wav",
+            "music/ev08.wav",
+            "music/ev09.wav",
+            "music/ev10.wav",
+            "music/ev11.wav",
+            "music/ev12.wav",
+            "music/ev13.wav"
+
 
         ]
     document.addEventListener("dblclick", () => {
