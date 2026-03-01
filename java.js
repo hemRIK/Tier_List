@@ -134,7 +134,7 @@ function duplica() {
 
 
 
-function radar(i) {
+function radar() {
 
 
 
@@ -232,7 +232,7 @@ function mostraindiceefoto() {
 
     divnome.innerHTML = selecao[indiceatual].alt
 
-
+    somtrocapersonagem()
 
 
 
@@ -243,7 +243,6 @@ function mostraindiceefoto() {
 document.addEventListener('keydown', function (event) {
 
     if (event.key === "ArrowRight") {
-
 
         duplica()
 
@@ -384,7 +383,7 @@ function mudamusica() {
 
         ]
     document.addEventListener("dblclick", () => {
-
+        s
         indice = (indice + 1) % listaDemusicas.length;
         playerclick.src = listaDemusicas[indice];
         playerclick.play();
@@ -397,3 +396,15 @@ function mudamusica() {
 
 }
 mudamusica()
+
+
+function somtrocapersonagem() {
+
+    const som = new Audio("music/efeitos/snddata_00057.wav");
+    som.preload = "auto";
+
+
+    som.currentTime = 0;
+    som.play();
+
+}
