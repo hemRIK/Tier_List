@@ -382,7 +382,7 @@ function mudamusica() {
 
         ]
     document.addEventListener("dblclick", () => {
-        s
+        
         indice = (indice + 1) % listaDemusicas.length;
         playerclick.src = listaDemusicas[indice];
         playerclick.play();
