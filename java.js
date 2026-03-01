@@ -134,7 +134,7 @@ function duplica() {
 
 
 
-function radar() {
+function radar(i) {
 
 
 
@@ -142,8 +142,7 @@ function radar() {
     let Chacra = jogadores[i].chacra
     let movimento = jogadores[i].movimento
     let item = jogadores[i].item
-    console.log(def)
-    console.log(i)
+   
 
 
 
