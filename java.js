@@ -158,7 +158,7 @@ function radar(i) {
     mychart = new Chart(ctx, {
         type: 'radar',
         data: {
-            labels: ['DEF', 'Chacra', 'V.MOVIMENTO', 'Res.ITEM'],
+            labels: ['DEF '+def, 'Chacra '+Chacra, 'Velocidade '+movimento, 'ITEM '+item],
             datasets: [{
                 data: [def, Chacra, movimento, item],
 
@@ -198,7 +198,7 @@ function radar(i) {
                     pointLabels: {
                         color: 'black',
                         font: {
-                            size: 11,
+                            size: 13,
                             weight: 'bold'
                         }
                     }
@@ -216,6 +216,7 @@ function radar(i) {
 
 
 function mostraindiceefoto() {
+        somtrocapersonagem()
 
     console.log(selecao[indiceatual])
     console.log(indiceatual)
@@ -231,7 +232,7 @@ function mostraindiceefoto() {
 
     divnome.innerHTML = selecao[indiceatual].alt
 
-    somtrocapersonagem()
+
 
 
 
