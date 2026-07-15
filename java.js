@@ -356,45 +356,48 @@ function mudamusica() {
 
     const listaDemusicas =
         [
-            "music/stage00.wav",
-            "music/stage01.wav",
-            "music/stage02.wav",
-            "music/stage03.wav",
-            "music/stage04.wav",
-            "music/stage05.wav",
-            "music/stage06.wav",
-            "music/stage07.wav",
+            "music/03-ModeSelect.mp3",
+"music/10. Time Trial.mp3",
+"music/11. Hidden Leaf Village.mp3",
+"music/12. Hidden Leaf Gate.mp3",
+"music/13. Five-Seal Barrier Cliff.mp3",
+"music/14. Akatsuki Hideout.mp3",
+"music/15. Tenchi Bridge.mp3",
+"music/16. Orochimaru's Hideout.mp3",
+"music/17. Giant Snake Altar.mp3",
+"music/18. Foundation's Hideout.mp3",
+"music/19. Tranquility And Reunion.mp3",
+"music/20. Hidden Leaf Village.mp3",
+"music/21. Dark Clouds On The Horizon.mp3",
+"music/22. Hokage's Mansion.mp3",
+"music/23. Emergency Order.mp3",
+"music/24. Travel The World.mp3",
+"music/25. Surviving A Fierce Battle.mp3",
+"music/26. Gaining Experience.mp3",
+"music/27. Building Tension.mp3",
+"music/28. Hidden Sand Village.mp3",
+"music/29. Itachi Uchiha.mp3",
+"music/30. An Impostor.mp3",
+"music/31. An Ephemeral World.mp3",
+"music/32. The Wild.mp3",
+"music/33. Those Who Embrace The Darkness.mp3",
+"music/34. Evil Puppetmaster.mp3",
+"music/35. Sakura's Dance.mp3",
+"music/36. Akatsuki's Hideout.mp3",
+"music/37. Bonds.mp3",
+"music/38. Kakashi's Dojo.mp3",
+"music/39. The New Squad 1.mp3",
+"music/40. Blue Silhouette.mp3",
+"music/41. A Great Evil Appears.mp3",
+"music/42. The Crazed Beast.mp3",
+"music/43. Strong Determination.mp3",
+"music/44. The Imminent Duel.mp3",
+"music/45. Jaketsu's Lair.mp3",
+"music/46. Wish... Dance On The Clouds.mp3",
+"music/47. Sasuke Uchiha.mp3",
+"music/48. Staff Roll.mp3"
 
-            "music/rpg00.wav",
-            "music/rpg01.wav",
-            "music/rpg02.wav",
-            "music/rpg03.wav",
-            "music/rpg04.wav",
 
-
-            "music/btl00.wav",
-            "music/btl01.wav",
-            "music/btl02.wav",
-            "music/btl03.wav",
-            "music/btl04.wav",
-            "music/btl05.wav",
-            "music/btl06.wav",
-            "music/btl07.wav",
-
-            "music/ev00.wav",
-            "music/ev01.wav",
-            "music/ev02.wav",
-            "music/ev03.wav",
-            "music/ev04.wav",
-            "music/ev05.wav",
-            "music/ev06.wav",
-            "music/ev07.wav",
-            "music/ev08.wav",
-            "music/ev09.wav",
-            "music/ev10.wav",
-            "music/ev11.wav",
-            "music/ev12.wav",
-            "music/ev13.wav"
 
 
         ]
@@ -405,6 +408,8 @@ function mudamusica() {
         playerclick.play();
 
         console.log(listaDemusicas[indice])
+        alert(listaDemusicas[indice].replace("music/",""))
+
     })
 
 

@@ -1,0 +1,42 @@
+03-ModeSelect.mp3
+10. Time Trial.mp3
+11. Hidden Leaf Village.mp3
+12. Hidden Leaf Gate.mp3
+13. Five-Seal Barrier Cliff.mp3
+14. Akatsuki Hideout.mp3
+15. Tenchi Bridge.mp3
+16. Orochimaru's Hideout.mp3
+17. Giant Snake Altar.mp3
+18. Foundation's Hideout.mp3
+19. Tranquility And Reunion.mp3
+20. Hidden Leaf Village.mp3
+21. Dark Clouds On The Horizon.mp3
+22. Hokage's Mansion.mp3
+23. Emergency Order.mp3
+24. Travel The World.mp3
+25. Surviving A Fierce Battle.mp3
+26. Gaining Experience.mp3
+27. Building Tension.mp3
+28. Hidden Sand Village.mp3
+29. Itachi Uchiha.mp3
+30. An Impostor.mp3
+31. An Ephemeral World.mp3
+32. The Wild.mp3
+33. Those Who Embrace The Darkness.mp3
+34. Evil Puppetmaster.mp3
+35. Sakura's Dance.mp3
+36. Akatsuki's Hideout.mp3
+37. Bonds.mp3
+38. Kakashi's Dojo.mp3
+39. The New Squad 1.mp3
+40. Blue Silhouette.mp3
+41. A Great Evil Appears.mp3
+42. The Crazed Beast.mp3
+43. Strong Determination.mp3
+44. The Imminent Duel.mp3
+45. Jaketsu's Lair.mp3
+46. Wish... Dance On The Clouds.mp3
+47. Sasuke Uchiha.mp3
+48. Staff Roll.mp3
+efeitos
+lista.txt
