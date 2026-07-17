@@ -333,6 +333,29 @@ document.addEventListener('keydown', function (event) {
 })
 
 
+  let Maviso = document.getElementById('musicbox')
+
+function aviso_musicbox(musicaatual) 
+{ 
+
+
+ 
+    let aviso = document.createElement('div')
+       
+    aviso.classList.add('toast')
+   aviso.innerHTML = `<i class="fa-solid fa-music"></i> ${musicaatual}`;
+    Maviso.appendChild(aviso)
+
+    
+         setTimeout(()=>
+            {
+
+aviso.remove()
+
+
+            },5000)
+
+}
 
 function playmusica() {
 
@@ -407,8 +430,9 @@ function mudamusica() {
         playerclick.src = listaDemusicas[indice];
         playerclick.play();
 
-        console.log(listaDemusicas[indice])
-        alert(listaDemusicas[indice].replace("music/",""))
+        console.log(listaDemusicas[indice].replace('music/',''))
+        
+        aviso_musicbox(listaDemusicas[indice].replace('music/','')) 
 
     })
 
