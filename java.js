@@ -339,7 +339,8 @@ function aviso_musicbox(musicaatual)
 { 
 
 
- 
+ const tempoanimacaomusicbox = getComputedStyle(document.documentElement).getPropertyValue('--tempoanimacaomusicbox').trim()
+ const tempoanimacaomusicboxconvertido = parseFloat(tempoanimacaomusicbox)*1000
     let aviso = document.createElement('div')
        
     aviso.classList.add('toast')
@@ -353,7 +354,7 @@ function aviso_musicbox(musicaatual)
 aviso.remove()
 
 
-            },5000)
+            },tempoanimacaomusicboxconvertido)
 
 }
 
@@ -429,10 +430,8 @@ function mudamusica() {
         indice = (indice + 1) % listaDemusicas.length;
         playerclick.src = listaDemusicas[indice];
         playerclick.play();
-
-        console.log(listaDemusicas[indice].replace('music/',''))
-        
-        aviso_musicbox(listaDemusicas[indice].replace('music/','')) 
+               
+        aviso_musicbox(listaDemusicas[indice].replace('music/','').replace('.mp3',"")) 
 
     })
 
