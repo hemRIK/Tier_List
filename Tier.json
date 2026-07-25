@@ -401,7 +401,7 @@
   },
   {
     "nome": "Kankuro Ts",
-    "imagem": "img/players/Kankuro Ts.png",
+    "imagem": "img/players/Kankuro Ts.png", 
     "link": "javascript:void(0)",
     "imagem_selecao": "img/players/Fotoselecao/KankuroTs.png",
     "def": "1050",
